@@ -1,0 +1,97 @@
+/*
+* In this examples the class name i gave for my module is "request-demo-form"
+* you can change this with the class name you have for your module
+*/
+
+.request-demo-form .wpcf7 p {
+    width: 32.1%;
+    float: left;
+    margin-left: 14px;
+}
+
+.request-demo-form .wpcf7 p:nth-child(2) {
+    margin-left: 0px !important;
+}
+
+.request-demo-form .wpcf7 p:nth-child(5) {
+    float: none;
+    width: 100%;
+    margin-left: 0px;
+}
+
+.request-demo-form .wpcf7 p:nth-child(6) {
+    width: 100%;
+    margin-left: 0px;
+}
+
+.request-demo-form input[type=text], input[type=email], input[type="tel"], textarea {
+	padding: 12px 18px;
+    border: 2px solid #bbbbbb;
+    border-radius: 2px;
+    width: 100%;
+    background: #f1f1f1;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.request-demo-form input[type=text], input[type=email], input[type="tel"] {
+	height: 43px;
+}
+
+.request-demo-form input[type="submit"] {
+	width: 100%;
+    padding: 13px;
+    background: #e57e2a;
+    border-bottom: 3px solid rgba(0,0,0,0.2);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-size: 21px;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.request-demo-form textarea {
+	height: 103px;
+}
+
+.request-demo-form input[type="submit"]:hover {
+    background: #fc9642;
+}
+
+/* Ipad */
+@media only screen and (max-width: 980px) and (min-width: 581px)  {
+  .request-demo-form .wpcf7 p:nth-child(2) {
+		width: 100%;
+	}
+	
+	.request-demo-form .wpcf7 p:nth-child(3) {
+		margin-left: 0px;
+	}
+	
+	.request-demo-form .wpcf7 p {
+		width: 47.7%;
+		margin-left: 27px;
+	}
+}
+
+/* General Mobile */
+@media only screen and (max-width: 580px) and (min-width: 100px)  {
+  .request-demo-form .wpcf7 p {
+		width: 100%;
+		margin-left: 0px;
+	}
+	
+	.request-demo-form textarea {
+		height: 77px;
+	}
+	
+	.request-demo-form input[type="submit"] {
+		padding: 7px;
+	}
+	
+	.contact-class input[type="submit"] {
+		width: 34%;
+	}
+}
